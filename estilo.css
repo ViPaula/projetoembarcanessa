@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #eeefee;
+  font-family: Arial;
+
+}
+
+#cabecalho {
+   width: 1326px;
+   padding: 40px;
+   color: white;
+   text-align: left;
+   background-color: #004C6A;
+}
+
+/*Área onde pode fazer login*/
+.conta {
+  width: 300px;
+  height: 300px;
+
+
+}
+
+.login {
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+.login form {
+    width: 100%;
+
+}
+.login input {
+  width: 250px;
+  border: 1px solid #add;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+#btentrar {
+  width: 100%;
+  height: 40px;
+  background-color: #F7BE16;
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 5px;
+
+}
+
+#btentrar:hover {
+    background-color: #F7BE16;
+}
+
+#btcriarconta {
+    height: 35px;
+    font-weight: bolder;
+    background-color: #00818A;
+    color: white;
+    border-radius: #00818A;
+    padding: 10px;
+    border-radius: 5px;
+
+
+}
+
+#btcriarconta:hover{
+    background-color: #5FB998;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#esqueci {
+    color: rgb(0, 68, 255);
+}
+
+#pagina {
+    text-align: center;
+    font-size: 11px;
+}
+
+#rodape{
+  width: 1386px;
+  padding: 10px;
+  color: white;
+  text-align: left;
+  background-color:#484854;
+}
+
+/*CSS da área do usuário*/    
+
+
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004C6A;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #F7BE16;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+   
+  /*css do mapa*/
+  #map {
+    height: 100%;
+  }
+  
+  /* Optional: Makes the sample page fill the window. */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
